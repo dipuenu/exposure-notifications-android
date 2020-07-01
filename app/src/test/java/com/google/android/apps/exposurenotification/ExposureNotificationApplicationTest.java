@@ -24,7 +24,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 /**
- * Tests of {@link ExposureNotificationApplication}.
+ * Tests of { @link ExposureNotificationApplication}.
  */
 @RunWith(AndroidJUnit4.class)
 public class ExposureNotificationApplicationTest {

@@ -129,7 +129,12 @@ public final class ExposureNotificationActivity extends AppCompatActivity {
     }
   }
 
-  @Override
+  private Object getSupportFragmentManager() {
+	// TODO Auto-generated method stub
+	return null;
+}
+
+@Override
   protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
     super.onActivityResult(requestCode, resultCode, data);
     onResolutionComplete(requestCode, resultCode);
